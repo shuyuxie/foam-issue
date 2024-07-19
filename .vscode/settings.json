@@ -4,14 +4,18 @@
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   "editor.lineHeight": 24,
-  "foam.edit.linkReferenceDefinitions": "withExtensions",
+  "foam.edit.linkReferenceDefinitions": "off",
   "[markdown]": {
     "editor.quickSuggestions": {
-      "other": true,
+      "other": false,
       "comments": false,
       "strings": false
     }
   },
+  "markdown.copyFiles.destination": {
+    "/*": "/attachments/${documentBaseName}/"
+  },
+  "foam.files.attachmentExtensions":"pdf mp3 webm wav m4a mp4 avi mov rtf txt doc docx pages xls xlsx numbers ppt pptm pptx py",
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "files.exclude": {
